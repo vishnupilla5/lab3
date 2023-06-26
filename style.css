@@ -1,0 +1,57 @@
+h1
+{
+text-align: center;
+}
+.view {
+    background-color: Powderedblue;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    max-width: 20vw;
+    padding-left: 2.4%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.row {
+    margin: auto;
+}
+
+.btn {
+    background-color: lightblue;
+    margin: 2px auto;
+    border: transparent;
+    width: 20%;
+    height: 5vh;
+    border-radius: 10px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.btn:hover {
+    background-color: rgb(0, 162, 255);
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.input {
+    font-size: x-large;
+    border-radius: 10px;
+    padding: auto;
+    width: 80%;
+    margin: 5px auto;
+    height: 5vh;
+}
+
+.hide {
+    visibility: hidden;
+    position: absolute;
+}
+
+#new button {
+    background-color: rgb(0, 129, 204);
+}
+
+#new button:hover {
+    background-color: rgb(80, 214, 255);
+}
