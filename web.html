@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Enter a new record</h2>
+    <form action="/cgi-bin/student_grades.py" method="post">
+        <label>FullName: <input type="text" name="name"></label><br>
+        <label>Midterm #1: <input type="number" name="midterm1"></label><br>
+        <label>Midterm #2: <input type="number" name="midterm2"></label><br>
+        <label>Final Exam: <input type="number" name="final_exam"></label><br><br>
+        <input type="submit" value="Save">
+        <input type="submit" value="Display the records">
+        <h2>Delete a record</h2>
+        <label>FullName: <input type="text" name="name"></label><br><br>
+        <input type="submit" value="Delete">
+    </form>
+</body>
+</html>
